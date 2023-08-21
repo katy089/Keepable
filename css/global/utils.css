@@ -1,0 +1,94 @@
+/* Contours */
+.gray-border {
+  border: 1px solid #999b9e;
+}
+
+/* Background colors for palettes */
+.white-bg {
+  background-color: white;
+}
+
+.red-100-bg {
+  background-color: var(--red-100);
+}
+
+.yellow-100-bg {
+  background-color: var(--yellow-100);
+}
+
+.yellow-200-bg {
+  background-color: var(--yellow-200);
+}
+
+.green-100-bg {
+  background-color: var(--green-100);
+}
+
+.cyan-100-bg {
+  background-color: var(--cyan-100);
+}
+
+.blue-100-bg {
+  background-color: var(--blue-100);
+}
+
+.blue-200-bg {
+  background-color: var(--blue-200);
+}
+
+.pink-100-bg {
+  background-color: var(--pink-100);
+}
+
+.purple-200-bg {
+  background-color: var(--purple-200);
+}
+
+.white-bg,
+.red-100-bg,
+.yellow-100-bg,
+.yellow-200-bg,
+.green-100-bg,
+.cyan-100-bg,
+.blue-100-bg,
+.blue-200-bg,
+.pink-100-bg,
+.purple-200-bg {
+  border-radius: 0.375em;
+}
+
+.white {
+  color: #fff;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.ds-none {
+  display: none !important;
+}
+
+.inherit-bc {
+  background-color: inherit;
+}
+
+.center-vertically {
+  justify-content: center;
+}
+
+.padding-9 {
+  padding: 9px;
+}
+
+.full-height {
+  height: calc(100vh - 150px);
+}
+
+.full-height-main {
+  height: calc(100vh - 400px);
+}
+
+.centered {
+  margin: auto;
+}

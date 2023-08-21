@@ -1,0 +1,148 @@
+@import url("./css/reset.css");
+
+.card__content {
+  width: 260px;
+  height: 260px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card__body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__text {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 20px;
+}
+
+.card__text:hover {
+  cursor: pointer;
+}
+
+.card__icon {
+  display: flex;
+  justify-content: flex-start;
+  gap: 9px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.card__icon--custom {
+  width: 36px;
+  height: 36px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white-transparent);
+  margin-bottom: 2px;
+}
+
+.card__icon--custom:hover,
+.card__icon--custom:active {
+  background-color: var(--gray-200);
+}
+
+.card__icon--custom:hover img,
+.card__icon--custom:active img {
+  filter: brightness(0) invert(1);
+}
+
+.form-to-white:hover,
+.form-to-white:active {
+  filter: brightness(0) invert(1);
+}
+
+.button__custom {
+  border-radius: 8px;
+}
+
+.button__custom:hover {
+  background-color: var(--gray-transparent);
+}
+
+.pin-button {
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  padding: 10px 12px;
+  background-color: var(--white-transparent);
+}
+
+.pin-button:hover {
+  background-color: var(--gray-transparent);
+}
+
+.pin-button:hover .active {
+  filter: brightness(0) invert(1);
+}
+
+/*INPUT*/
+
+.input__container,
+.select__input {
+  /* border: 1px solid var(--gray-200); */
+  padding: 0.5em 0.75em;
+  border-radius: 0.375em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  /* background-color: white; */
+  max-width: 600px;
+  height: 150px;
+
+  flex-direction: column;
+}
+
+.input__content {
+  padding: 0;
+  margin: 0;
+  border: none;
+  width: 100%;
+}
+
+.input__content::placeholder {
+  color: var(--gray-200);
+}
+
+input:focus {
+  outline: none;
+}
+
+.padding {
+  padding: 20px 20px;
+}
+
+input[type="button"],
+button {
+  background-color: white;
+  border: 0;
+  color: inherit;
+  font-weight: bold;
+}
+
+.card__footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* @media (max-width: 670px) {
+  .card-container {
+    justify-content: center;
+  }
+}
+
+/*Message*/
+.message {
+  color: white;
+  text-align: center;
+  font-size: 36px;
+  line-height: 48px;
+}

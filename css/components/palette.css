@@ -1,0 +1,31 @@
+/* Paleta de colores */
+.palette__container {
+  height: 65px;
+  width: 155px;
+  border-radius: 8px;
+  padding: 5px;
+  background-color: white;
+  box-shadow: var(--shadow-sm);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 5px;
+}
+
+/* Color individual en la paleta */
+.palette__color {
+  width: 25px;
+  height: 25px;
+  border-radius: 100px;
+  /* Utiliza variables para los colores */
+  background-color: var(--palette-color);
+}
+
+/* Efecto al pasar el ratón por encima */
+.palette__color:hover {
+  border: 0.5px solid var(--gray-200);
+}
+
+/* Margen inferior para la paleta de colores en las tarjetas */
+.card-palette {
+  margin-bottom: 120px;
+}

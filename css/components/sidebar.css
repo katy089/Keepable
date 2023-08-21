@@ -1,0 +1,52 @@
+/* Estilos de la barra lateral (aside) */
+.aside {
+  padding-top: 8px;
+  top: 70px;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #fff;
+  position: fixed;
+  width: 280px;
+  height: 100%;
+  background-color: #1d2128;
+  z-index: 1;
+}
+
+/* Enlaces de la barra lateral */
+.aside-link {
+  text-decoration: none;
+  color: var(--white);
+  display: flex;
+  gap: 20px;
+  height: 48px;
+  padding: 14px 0 14px 20px;
+}
+
+/* Efecto al pasar el ratón por encima del enlace */
+.aside-link:hover {
+  background-color: var(--gray-200);
+  border-radius: 0px 25px 25px 0px;
+}
+
+/* Ícono de la papelera en la barra lateral */
+.trash-icon {
+  width: 25px;
+  height: 24px;
+}
+
+/* Espaciado para el ícono de notas */
+.notes-icon {
+  padding-left: 1px;
+}
+
+/* Estilos responsivos para dispositivos de ancho máximo de 880px */
+@media (max-width: 880px) {
+  .aside {
+    width: 70px;
+  }
+
+  /* Ocultar el título de la barra lateral en pantallas más pequeñas */
+  .aside-title {
+    display: none;
+  }
+}
